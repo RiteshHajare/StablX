@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-brand img {
+    margin-left: 5vw;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.search {
+    margin-left: 0;
+    width: 100%;
+}
+
+.inputdiv {
+    width: 25%;
+
+}
+
+.navbar-nav {
+    margin-left: 10vw;
+}
+
+.image {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 20vw;
+
+    cursor: pointer;
+}
+
+.nav-item a {
+    margin: auto 0.4rem !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+body {
+    background-color: rgb(255, 238, 221);
+}
+
+.navbar {
+    height: 3.2rem;
+}
+
+@media (max-width:995px) {
+    .image {
+        position: absolute;
+        right: 0;
+    }
+
+    .inputdiv {
+        width: 50%;
+    }
+
+    .middletop {
+        display: flex;
+        position: relative;
+    }
+
+    .middletop input {
+        width: 20%;
+        height: 10%;
+        position: absolute;
+        top: 35%;
+        right: 10%;
+    }
+
+    .me {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+
+
+    .navbar-nav {
+        position: absolute;
+        z-index: 100;
+        background-color: white;
+    }
+
+}
+
+.bodyy {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.left {
+    background-color: white;
+    width: 27vw;
+    height: 60vh;
+    border: 0.4px solid rgb(189, 189, 189);
+
+}
+
+.backgroundimg {
+    width: 100%;
+
+}
+
+.onleft {
+    position: relative;
+    left: 10vw;
+    bottom: 6vh;
+    height: 6vw;
+    width: 6vw;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.myself {
+    text-align: center;
+
+}
+
+.connections {
+    margin-left: 1vw;
+    margin-right: 60%;
+}
+
+.profileviews {
+    margin-left: 1vw;
+    margin-right: 8.6vw;
+}
+
+.middle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 50%;
+
+}
+
+.hr {
+    width: 100%;
+    ;
+}
+
+.middletop {
+    border: 0.4px solid rgb(189, 189, 189);
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+.middletop input {
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.me {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.middlebottom {
+    border: 0.4px solid rgb(189, 189, 189);
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+
+}
+
+.img1 {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.name {
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+.img2 {
+    height: 80%;
+    width: 100%;
+}
+
+.postdetail {
+    margin: 2rem 0;
+}
+
+.right {
+    background-color: white;
+    width: 27vw;
+    height: fit-content;
+    border: 0.4px solid rgb(189, 189, 189);
+}
+
+.right li {
+    margin: 1rem 0;
+}
+
+.right h3 {
+    text-align: center;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.right a:hover {
+    color: blue;
+}
+
+.grey {
+    color: rgb(148, 142, 142);
+    margin-left: 1rem;
+    margin-bottom: 2rem !important;
+}
